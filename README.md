@@ -1,2 +1,1 @@
-# alu-higher_level_programming
-Python start up
+Repo to start up Python start
