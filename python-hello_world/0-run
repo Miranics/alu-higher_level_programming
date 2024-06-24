@@ -1,0 +1,4 @@
+#!/usr/bin/python3
+
+# Running a py script
+python3 $PYFILE
