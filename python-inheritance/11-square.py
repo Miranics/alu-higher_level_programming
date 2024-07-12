@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+<<<<<<< HEAD
 """
 Module 10-square
 Contains parent class BaseGeometry
@@ -10,6 +11,8 @@ Contains subclass Square
 with instantiation of private attribute size, validated by superclass,
 and prints with __str__
 """
+=======
+>>>>>>> 0dc9add8e4be667d7c4968d33683c0ec43256433
 
 
 Rectangle = __import__('9-rectangle').Rectangle
