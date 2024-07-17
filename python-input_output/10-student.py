@@ -7,7 +7,7 @@ of requested attributes or all if none were requested
 """
 
 
-class Student():
+class Student:
     """
     Public Attributes:
         first_name
