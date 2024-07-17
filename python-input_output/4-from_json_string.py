@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-"""
-Module 4-from_json_string
+"""Module 4-from_json_string
 Contains function that returns python data structure from JSON string
 """
 
