@@ -1,33 +1,32 @@
 #!/usr/bin/python3
-"""_summary_
-Write a function that prints a square with the character #.
-"""
-
-
 def text_indentation(text):
-    """_summary_
+    """
+    Prints a text with 2 new lines after each of these characters: ., ? and :
 
     Args:
-        text (_str_): _description: A text_
+        text (str): The text to format.
 
     Raises:
-        TypeError: _If text is not a string_
+        TypeError: If the input text is not a string.
     """
-
     if not isinstance(text, str):
         raise TypeError("text must be a string")
 
-    index = 0
-    while index < len(text) and text[index] == ' ':
-        index += 1
+    characters = ['.', '?', ':']
+    result = ""
+    i = 0
 
-    while index < len(text):
-        print(text[index], end="")
-        if text[index] == "\n" or text[index] in ".?:":
-            if text[index] in ".?:":
-                print("\n")
-            index += 1
-            while index < len(text) and text[index] == ' ':
-                index += 1
+    while i < len(text):
+        result += text[i]
+        if text[i] in characters:
+            result += "\n\n"
+            # Skip any following spaces
+            i += 1
+            while i < len(text) and text[i] == ' ':
+                i += 1
             continue
-        index += 1
+        i += 1
+
+    # Print the result with stripped lines
+    print("\n".join([line.strip() for line in result.split("\n")]))
+
