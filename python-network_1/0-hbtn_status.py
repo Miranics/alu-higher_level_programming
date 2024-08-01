@@ -1,19 +1,22 @@
 #!/usr/bin/python3
+"""
+This module fetches the status from https://alu-intranet.hbtn.io/status
+using urllib, and displays the response body.
+"""
 
 import urllib.request
 
-# The URL to fetch the status from
-url = 'https://alu-intranet.hbtn.io/status'
+def fetch_status():
+    """Fetches the status from the given URL and prints the response details."""
+    url = 'https://alu-intranet.hbtn.io/status'
+    with urllib.request.urlopen(url) as response:
+        body = response.read()
+        utf8_content = body.decode('utf-8')
 
-# Open the URL and fetch the response using a with statement
-with urllib.request.urlopen(url) as response:
-    # Read the response body as bytes
-    body = response.read()
-    # Decode the body to a UTF-8 string
-    utf8_content = body.decode('utf-8')
+    print("Body response:")
+    print(f"\t- type: {type(body)}")
+    print(f"\t- content: {body}")
+    print(f"\t- utf8 content: {utf8_content}")
 
-# Display the response body information
-print("Body response:")
-print(f"\t- type: {type(body)}")
-print(f"\t- content: {body}")
-print(f"\t- utf8 content: {utf8_content}")
+if __name__ == "__main__":
+    fetch_status()
