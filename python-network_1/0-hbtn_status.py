@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """
-This module fetches the status from https://alu-intranet.hbtn.io/status
-using urllib, and displays the response body details.
+Module 0-hbtn_status.py
 """
 
 import urllib.request
