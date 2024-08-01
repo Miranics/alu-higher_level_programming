@@ -1,6 +1,13 @@
 #!/usr/bin/python3
 """
-Module 0-hbtn_status.py
+This module defines a function to fetch and display the status of a web page.
+
+The function fetch_status sends an HTTP GET request to the URL 'https://alu-intranet.hbtn.io/status'
+using the urllib package, retrieves the response, and prints the details of the response body.
+The details include the type of the response body, the content as bytes, and the UTF-8 decoded content.
+
+Usage:
+    This script should be run directly to fetch and display the status from the specified URL.
 """
 
 import urllib.request
