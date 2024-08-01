@@ -2,9 +2,9 @@
 """
 Fetch https://intranet.hbtn.io/status and display the response.
 
-This module uses the requests library to send an HTTP GET request to the
-specified URL, retrieves the response, and prints the details about the
-response body, including its type and content.
+This script uses the requests library to perform an HTTP GET request
+to the specified URL, and prints the response details, including the
+type and content of the response body.
 """
 
 import requests
