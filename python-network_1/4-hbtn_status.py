@@ -1,11 +1,14 @@
 #!/usr/bin/python3
 """
-fetch https://intranet.hbtn.io/status; display response
+Fetch https://intranet.hbtn.io/status and display the response.
 """
 import requests
 
 if __name__ == "__main__":
-    r = requests.get("https://intranet.hbtn.io/status")
+    url = "https://alu-intranet.hbtn.io/status"
+    response = requests.get(url)
+    content = response.text
+
     print("Body response:")
-    print("\t- type: {}".format(type(r.text)))
-    print("\t- content: {}".format(r.text))
+    print("\t- type: {}".format(type(content)))
+    print("\t- content: {}".format(content))
