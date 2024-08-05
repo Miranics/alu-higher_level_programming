@@ -13,7 +13,7 @@ Passing first_name and last_name correctly
     >>> say_my_name("Betty", "Miracle")
     My name is Betty Miracle
 
-Passing first_name and last_name correctly 2
+Passing first_name correctly with no last_name
 
     >>> say_my_name("Luis")
     My name is Luis
