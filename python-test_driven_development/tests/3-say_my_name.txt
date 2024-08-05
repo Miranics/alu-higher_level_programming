@@ -10,8 +10,8 @@ Importing function from the module:
 
 Passing first_name and last_name correctly
 
-    >>> say_my_name("Betty", "Holberton")
-    My name is Betty Holberton
+    >>> say_my_name("Betty", "Miracle")
+    My name is Betty Miracle
 
 Passing first_name and last_name correctly 2
 
