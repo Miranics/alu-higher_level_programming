@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-![download](https://github.com/user-attachments/assets/5f8016b3-8b90-4372-8c1a-fc7f34ada470)     
 
 
 **Requirements**
