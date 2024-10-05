@@ -8,7 +8,7 @@ request(url, (error, response, body) => {
     console.log(error);
   } else {
     const parsedData = JSON.parse(body);
-    const results = parsedData.results;
+     const results = parsedData.results;
     let counter = 0;
     results.forEach(result => {
       result.characters.forEach(characterUrl => {
