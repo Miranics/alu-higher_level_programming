@@ -42,4 +42,4 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 -A README.md file, at the root of the folder of the project, is mandatory
 -Your code should be semistandard compliant (version 16.x.x). Rules of Standard + semicolons on top. Also as reference: AirBnB style
 -All your files must be executable
--The length of your files will be tested using wc
+-The length of your files will be tested using wc.
