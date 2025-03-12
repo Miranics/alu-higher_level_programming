@@ -17,7 +17,7 @@ All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (v
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
 *General
--Why JavaScript programming is amazing
+-Why JavaScript programming is amazing    
 -How to run a JavaScript script
 -How to create variables and constants
 -What are differences between var, const and let
