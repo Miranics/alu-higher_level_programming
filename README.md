@@ -1,7 +1,7 @@
 #!/usr/bin/python                                                   
                                                  
                       
-**Requirements**                                                   
+**Requirements**                                                                 
     
 Python Scripts  
 Allowed editors: vi, vim, emacs
